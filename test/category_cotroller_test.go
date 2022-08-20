@@ -36,3 +36,5 @@ func setupTouter() http.Handler {
 
 	return middleware.NewAuthMidlleware(router)
 }
+
+func Test

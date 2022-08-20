@@ -1,0 +1,32 @@
+
+###Get All categories
+GET http://localhost:3000/api/categories
+X-API-Key: Secret
+Accept: application/json
+
+###
+POST http://localhost:3000/api/categories
+X-API-Key: Secret
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Saerom"
+}
+
+###
+GET http://localhost:3000/api/categories/100
+Accept: application/json
+
+###
+PUT http://localhost:3000/api/categories/2
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Jiheon"
+}
+
+###
+DELETE http://localhost:3000/api/categories/4
+Accept: application/json
